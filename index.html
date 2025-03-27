@@ -9,8 +9,20 @@
 <body>
     <div class="pokedex-container">
         <h1>Gotta Catch `em all!!</h1>
+        <div class="divSearch">
+            <input type="text" id="inputSearch" class="inputSearch">
+            <button id="btnSearch" class="btnSearch">Buscar</button>
+        </div>
         <div class="pokemon-list" id="pokemonList"></div>
+
+
+        <div class="pokemon-detail" id="pokemonDetail" style="display: none;">
+            <!-- Esto es la vista especifica -->
+            <button id="btnBack">Back to Pokedex</button>
+            <div id="pokemonInfo"></div>
+        </div>
     </div>
+   
 </body>
 <script src="main.js"></script>
 </html>

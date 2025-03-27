@@ -21,7 +21,7 @@ h1 {
 
 .pokemon-list {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 20px;
     /* display: flex;
     flex-wrap: wrap;
@@ -54,6 +54,41 @@ h1 {
 
 .pokemon-card p {
     font-weight: none;
+}
+
+.pokemon-detail {
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.divSearch{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.inputSearch {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.btnSearch {
+    height: 30px;
+    width: 90px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ee1515;
+    /* background-color: #777799; */
+    color: #000000;
+    font-weight: bold;
 }
 
 @media ( width <= 600px) {
